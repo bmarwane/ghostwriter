@@ -62,7 +62,7 @@ pre code { padding: 0; }
 code { padding: 2px 4px; font-size: 90%; border-radius: 4px; background-color: #f1f0ea; }
 hr { border: none; border-bottom: 1px dotted #303030; margin: 45px 0; }
 table { margin-bottom: 40px; width: 100%; }
-table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th { background-color: #f7f7f3; }
+table tbody > tr:nth-child(odd) > td, table tbody > tr:nth-child(odd) > th { background-color: #f7f7f3; }
 table th { padding: 0 10px 10px; text-align: left; }
 table td { padding: 10px; }
 table tr { border-bottom: 1px dotted #aeadad; }
@@ -102,7 +102,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
 .post-content a:hover { border-bottom: 1px dotted #f03838; padding: 0 0 2px; }
 .post-content:last-child { margin-bottom: 0; }
 .post-content .footnotes { border-spacing: 0; margin-bottom: 0; }
-.post-content .footnotes .label+td { width: 100%; }
+.post-content .footnotes .label + td { width: 100%; }
 .post-content .gist tr { border-bottom: 0; }
 .post-footer { margin-top: 5px; }
 .post-tags, .share { color: #aeadad; font-size: 14px; }
@@ -162,7 +162,7 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .site-header { padding-top: 40px; }
  .site-title { float: none; margin-bottom: 15px; }
  .site-title a { float: none; }
- .site-title+.button-square { margin-left: 0; }
+ .site-title + .button-square { margin-left: 0; }
  .site-nav-item { display: block; margin: 15px 0; }
  .post-header { margin-bottom: 20px; padding-bottom: 20px; }
  .post-header p { word-wrap: break-word; overflow-wrap: break-word; }
@@ -196,3 +196,12 @@ table tr { border-bottom: 1px dotted #aeadad; }
  .author-meta span { display: block; margin: 18px 0; }
  .footer-copyright { padding: 0 10px; }
 }
+a.badge { display: inline-block !important; color: #fff !important; background-color: #6c757d; padding: .5em .4em !important; font-size: 75%; font-weight: 400; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: .25rem; transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; }
+a.badge:hover { background-color: #6c757d !important; }
+a.badge.badge-typescript { background-color: #3178c6 !important; }
+a.badge.badge-typescript:hover { background-color: #3178c6 !important; }
+a.badge.badge-vue { background-color: #4fc08d !important; }
+a.badge.badge-vue:hover { background-color: #4fc08d !important; }
+a.badge.badge-react { color: #000 !important; background-color: #61dafb !important; }
+a.badge.badge-react:hover { background-color: #61dafb !important; }
+.post-stub { padding-bottom: .5rem; }

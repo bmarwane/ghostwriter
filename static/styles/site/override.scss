@@ -1,0 +1,45 @@
+a {
+  &.badge {
+    display: inline-block !important;
+    color: #fff !important;
+    background-color: #6c757d;
+    padding: .5em .4em !important;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:hover {
+      background-color: #6c757d !important;
+    }
+
+    &.badge-typescript {
+      background-color: #3178c6 !important;
+      &:hover {
+        background-color: #3178c6 !important;
+      }
+    }
+    &.badge-vue {
+      background-color: #4fc08d !important;
+      &:hover {
+        background-color: #4fc08d !important;
+      }
+    }
+    &.badge-react {
+      color: #000000 !important;
+      background-color: #61dafb !important;
+      &:hover {
+        background-color: #61dafb !important;
+      }
+    }
+  }
+
+}
+
+.post-stub {
+  padding-bottom: 0.5rem;
+}
