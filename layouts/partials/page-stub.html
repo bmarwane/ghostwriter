@@ -8,7 +8,9 @@
             <span class="post-stub-tag">Featured</span>
         {{ end }}
     </a>
-    {{ range $index, $tag := .Params.tags }}
-      <a class="badge badge-{{ . }}" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+    {{ if .Params.tags }}
+      {{ range $index, $tag := .Params.tags }}
+        <a class="badge badge-{{ . }}" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+      {{ end }}
     {{ end }}
 </li>

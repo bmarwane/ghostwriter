@@ -205,3 +205,4 @@ a.badge.badge-vue:hover { background-color: #4fc08d !important; }
 a.badge.badge-react { color: #000 !important; background-color: #61dafb !important; }
 a.badge.badge-react:hover { background-color: #61dafb !important; }
 .post-stub { padding-bottom: .5rem; }
+.tags-container { margin-top: .5rem; }
