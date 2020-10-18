@@ -206,3 +206,4 @@ a.badge.badge-react { color: #000 !important; background-color: #61dafb !importa
 a.badge.badge-react:hover { background-color: #61dafb !important; }
 .post-stub { padding-bottom: .5rem; }
 .tags-container { margin-top: .5rem; }
+.post-title, .page-title { font-size: 2rem !important; }
