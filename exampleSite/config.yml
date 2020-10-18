@@ -10,7 +10,7 @@ pygmentsCodefences: true
 
 markup:
   highlight:
-    codeFences: true
+    codeFences: false
     guessSyntax: false
     hl_Lines: ""
     lineNoStart: 1
